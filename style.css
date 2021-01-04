@@ -1,0 +1,100 @@
+@keyframes shakePlayer {
+    0% { transform: translateY(0px) rotateY(180deg); }
+    10% { transform: translateY(-50px) rotateY(180deg); }
+    20% { transform: translateY(0px) rotateY(180deg); }
+    30% { transform: translateY(-50px) rotateY(180deg); }
+    40% { transform: translateY(0px) rotateY(180deg); }
+    50% { transform: translateY(-50px) rotateY(180deg); }
+    60% { transform: translateY(0px) rotateY(180deg); }
+    70% { transform: translateY(-50px) rotateY(180deg); }
+    80% { transform: translateY(0px) rotateY(180deg); }
+    90% { transform: translateY(-50px) rotateY(180deg); }
+    100% { transform: translateY(0px) rotateY(180deg); }
+}
+
+@keyframes shakeComputer {
+    0% { transform: translateY(0px) }
+    10% { transform: translateY(-50px) }
+    20% { transform: translateY(0px) }
+    30% { transform: translateY(-50px)  }
+    40% { transform: translateY(0px) }
+    50% { transform: translateY(-50px) }
+    60% { transform: translateY(0px) }
+    70% { transform: translateY(-50px)  }
+    80% { transform: translateY(0px) }
+    90% { transform: translateY(-50px) }
+    100% { transform: translateY(0px) }
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section.game{
+    height: 80vh;
+    background: rgb(131,58,180);
+    background: linear-gradient(132deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); }
+
+div.options {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 3em;
+}
+
+button{
+    font-size: 1.5rem;
+    background: ghostwhite;
+    width: 110px;
+    height: 50px;
+}
+
+button:hover{
+    box-shadow: 1px 1px 2px gold;
+}
+
+div.score{
+    display: flex;
+    justify-content: space-around;
+}
+
+div.score>div>p{
+    text-align: center;
+    font-size: x-large;
+}
+
+div.score>div{
+    font-size: large;
+}
+
+div.bottom>h2{
+    text-align: center;
+}
+
+div.hands{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin-top: 4rem;
+}
+
+div.hands img:first-of-type{
+    transform: rotate(240deg);
+}
+
+div.winner{
+    text-align: center;
+}
+
+div.winner>h2{
+    font-size: xx-large;
+}
+
+section.game>h2{
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 12px;
+}
+
+
+
+
